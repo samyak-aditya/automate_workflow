@@ -1,0 +1,9 @@
+name: Hello Demo
+
+on: push
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Code was pushed!"
